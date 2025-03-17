@@ -28,7 +28,7 @@ def display_animated_logo():
     ("| |   | |     | |           ) |        ) |    | (   ) |  | |           | |        ) (     | (   ) |", Fore.GREEN),
     ("| )   ( |  ___) (___  /\\____) |  /\\____) |    | )   ( |  | (____/\\  ___) (___     | |     | )   ( |", Fore.YELLOW),
     ("|/     \\|  \\_______/  \\_______)  \\_______)    |/     \\|  (_______/  \\_______/     \\_/     |/     \\|", Fore.YELLOW),
-    "         ╭───────────────────────── < ~ COUNTRY ~  > ─────────────────────────────────────╮",
+"         ╭───────────────────────── < ~ COUNTRY ~  > ─────────────────────────────────────╮",
 "         │                         【•】 YOUR COUNTRY  ➤ MUMBAII                          │",
 "         │                         【•】 YOUR REGION   ➤ MUMBAII                          │",
 "         │                         【•】 YOUR CITY     ➤ MUMBAII                          │",
@@ -40,8 +40,7 @@ def display_animated_logo():
 "║  BRAND                : MULTI CONVO            HATA DIYA                    HAI BILKUL            ║",
 "║  GitHub               : BROKEN NADEEM          JAAEGA YE                    KOI BHI HO            ║",
 "║  WHATSAP              : +NO BHAWO              BAAT YWAD                   GOD ABBUS NO           ║",
-"╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝",
-    ]
+"╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝",   ]
 
     for line, color in logo_lines:
         typing_effect(line, 0.005, color)
