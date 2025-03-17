@@ -4,7 +4,7 @@ import os
 import sys
 from colorama import init, Fore, Style
 
-# Initialize Colorama (Fix for Color Codes Not Showing Properly)
+# Initialize Colorama
 if os.name == 'nt':
     init(autoreset=True)
 
@@ -20,27 +20,15 @@ def typing_effect(text, delay=0.002, color=Fore.WHITE):
 def display_animated_logo():
     clear_screen()
     logo_lines = [
-    ("_______   _________   _______    _______      _______    _         _________              _______", Fore.YELLOW),
-    ("(       )  \\__   __/  (  ____ \\  (  ____ \\    (  ___  )  ( \\        \\__   __/  |\\     /|  (  ___  )", Fore.YELLOW),
-    ("| () () |     ) (     | (    \\/  | (    \\/    | (   ) |  | (           ) (     ( \\   / )  | (   ) |", Fore.GREEN),
-    ("| || || |     | |     | (_____   | (_____     | (___) |  | |           | |      \\ (_) /   | (___) |", Fore.CYAN),
-    ("| |(_)| |     | |     (_____  )  (_____  )    |  ___  |  | |           | |       \\   /    |  ___  |", Fore.CYAN),
-    ("| |   | |     | |           ) |        ) |    | (   ) |  | |           | |        ) (     | (   ) |", Fore.GREEN),
-    ("| )   ( |  ___) (___  /\\____) |  /\\____) |    | )   ( |  | (____/\\  ___) (___     | |     | )   ( |", Fore.YELLOW),
-    ("|/     \\|  \\_______/  \\_______)  \\_______)    |/     \\|  (_______/  \\_______/     \\_/     |/     \\|", Fore.YELLOW),
-"         ╭───────────────────────── < ~ COUNTRY ~  > ─────────────────────────────────────╮",
-"         │                         【•】 YOUR COUNTRY  ➤ MUMBAII                          │",
-"         │                         【•】 YOUR REGION   ➤ MUMBAII                          │",
-"         │                         【•】 YOUR CITY     ➤ MUMBAII                          │",
-"         ╰────────────────────────────< ~ COUNTRY ~  >────────────────────────────────────╯",
-"╔═══════════════════════════════════════════════════════════════════════════════════════════════════╗",
-"║  NAME                 : MIISS-ALIIYA           GOD ABBUS                     RAKHNA               ║",
-"║  RULLEX               : MUMBAII ON FIRE        KARNE PE                      SAB GOD              ║",
-"║  FORM 🏠              : MUMBAII                APPEARED                     ABBUS BANA            ║",
-"║  BRAND                : MULTI CONVO            HATA DIYA                    HAI BILKUL            ║",
-"║  GitHub               : BROKEN NADEEM          JAAEGA YE                    KOI BHI HO            ║",
-"║  WHATSAP              : +NO BHAWO              BAAT YWAD                   GOD ABBUS NO           ║",
-"╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝",   ]
+        ("_______   _________   _______    _______      _______    _         _________              _______", Fore.YELLOW),
+        ("(       )  \\__   __/  (  ____ \\  (  ____ \\    (  ___  )  ( \\        \\__   __/  |\\     /|  (  ___  )", Fore.YELLOW),
+        ("| () () |     ) (     | (    \\/  | (    \\/    | (   ) |  | (           ) (     ( \\   / )  | (   ) |", Fore.GREEN),
+        ("| || || |     | |     | (_____   | (_____     | (___) |  | |           | |      \\ (_) /   | (___) |", Fore.CYAN),
+        ("| |(_)| |     | |     (_____  )  (_____  )    |  ___  |  | |           | |       \\   /    |  ___  |", Fore.CYAN),
+        ("| |   | |     | |           ) |        ) |    | (   ) |  | |           | |        ) (     | (   ) |", Fore.GREEN),
+        ("| )   ( |  ___) (___  /\\____) |  /\\____) |    | )   ( |  | (____/\\  ___) (___     | |     | )   ( |", Fore.YELLOW),
+        ("|/     \\|  \\_______/  \\_______)  \\_______)    |/     \\|  (_______/  \\_______/     \\_/     |/     \\|", Fore.YELLOW)
+    ]
 
     for line, color in logo_lines:
         typing_effect(line, 0.005, color)
@@ -136,7 +124,6 @@ def main():
     haters_name = animated_input("  【🖊️】 ENTER HATER NAME➜")
     messages_file = animated_input("  【📝】 ENTER MESSAGE FILE➜")
 
-    # Speed input validation
     while True:
         try:
             speed = float(animated_input("  【⏰】 ENTER DELAY/TIME (in seconds) FOR MESSAGES ➜"))
