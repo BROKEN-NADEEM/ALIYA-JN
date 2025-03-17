@@ -34,12 +34,12 @@ def display_animated_logo():
         "         │                         【•】 YOUR CITY     ➤ MUMBAII                          │",
         "         ╰────────────────────────────< ~ COUNTRY ~  >────────────────────────────────────╯",
         "╔═══════════════════════════════════════════════════════════════════════════════════════════════════╗",
-        "║  NAME                 : MIISS-ALIIYA           GOD ABBUS                     RAKHNA              ║",
-        "║  RULLEX               : MUMBAII ON FIRE            KARNE PE                   SAB GOD             ║",
-        "║  FORM 🏠              : MUMBAII              APPEARED                     ABBUS BANA          ║",
-        "║  BRAND                : MULTI CONVO              HATA DIYA                    HAI BILKUL          ║",
-        "║  GitHub               : BROKEN NADEEM            JAAEGA YE                    KOI BHI HO          ║",
-        "║  WHATSAP              : +NO BHAWO          BAAT YWAD                   GOD ABBUS NO         ║",
+        "║  NAME                 : MIISS-ALIIYA           GOD ABBUS                     RAKHNA             ║",
+        "║  RULLEX               : MUMBAII ON FIRE        KARNE PE                      SAB GOD            ║",
+        "║  FORM 🏠              : MUMBAII                APPEARED                     ABBUS BANA          ║",
+        "║  BRAND                : MULTI CONVO            HATA DIYA                    HAI BILKUL          ║",
+        "║  GitHub               : BROKEN NADEEM          JAAEGA YE                    KOI BHI HO          ║",
+        "║  WHATSAP              : +NO BHAWO              BAAT YWAD                   GOD ABBUS NO         ║",
         "╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝",
     ]
 
